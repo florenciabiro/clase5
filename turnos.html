@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cvclase5.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Halant&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header > 
+        <div class="cabecera">
+        <div class="content-header">
+            <h1>Dra. Florencia Biro</h1>
+            <p>Especialista en Endocrinología Ginecológica y Reproducción</p>
+        </div>   
+        </div>
+    </header>
+        <div class="caja">
+            <div class="formulario">
+                <h2>Para contactarme llenar el siguiente formulario</h2> 
+                <form action=""  class="form" name="registro" method="POST" >
+                    <h3> Indique la Subespecialidad Requerida</h3>  
+                    <div class="radio">
+                        <input type="radio" id="gineco" name="especialidad" required>
+                        <label for="gineco" >Ginecologia</label>
+                
+                        <input type="radio" id="fertilidad" name="especialidad" required>
+                        <label for="fertilida" >Fertilidad</label>  
+                    </div>       
+                    <div class="modalidad">
+                        <h3>Indique la Modalidad de consulta</h3>
+                            <p>
+                                <input type="checkbox" name="tipo"  id="presencial" >
+                                <label for="presencial">Presencial</label>
+                            </p>
+                            <p>
+                                <input type="checkbox" name="tipo" id="teleconsulta"  >
+                                <label for="teleconsulta">Teleconsulta</label>  
+                            </p>
+                    </div>
+                    <h3>Ingrese sus datos personales </h3>
+                    <p>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre"  name="nombre" placeholder="ingrese su nombre" required/>
+                    </p>
+                    <p>
+                        <label for="Apellido">Apellido</label>
+                        <input type="text"  id="apellido" name="apellido" placeholder="ingrese su apellido" required />
+                    </p>
+                    <p>
+                        <label for="edad">Edad</label>
+                        <input type="number" id="edad " name="edad" min="18" max="65" required>
+                    </p>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required></label>
+                    </p>
+                    <button  class="boton-form" type="submit">Enviar Formulario</button>
+                    <button class="boton-form " type="reset">Borrar Formulario</button>
+                </form>
+            </div>
+               <aside>
+                <h2>Deje aqui sus comentarios</h2>
+                <label for="Comentario">Todas las sugerencias son bienvenidas</label> <br>
+                <textarea name=Comentario inputmode="text" required></textarea>
+                <button class="boton-form " type="submit">Enviar Formulario</button>
+                <button class="boton-form" type="delete">Borrar Formulario</button>
+            </aside>  
+        </div>
+<div class="clearfix"></div>
+    <div >
+        <button class="volver nav-link" > <a href="index.html" class="nav-link" >Volver</a></button>
+    </div >
+     <div class="clearfix"></div>
+<footer>
+        Florencia Biro WEB &copy; 2021
+    </footer>
+</body>

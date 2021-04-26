@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+      height: 100%;
+}
+body{
+    background-image: url(imagenescv/backblue.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+    
+}
+h1,h2, .btn { font-family: 'Halant', serif;
+}
+h3,h4,h5{ font-family: 'Nunito Sans', sans-serif;
+}
+span{color: rgb(220, 20, 60);}
+.nav-link{
+    text-decoration: none;
+    list-style: none;
+    color: rgba(179, 184, 245, 0.637);
+}
+
+.cabecera{
+    
+    background-image: url(imagenescv/rsz_quirofano.jpg);
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;   
+    margin: auto;
+    padding: 50px 10px;
+  
+}
+.content-header{
+    border: solid 2px rgba(179, 185, 245, 0.445);
+    padding-top: 100px;
+    background-color: rgba(1, 14, 15, 0.658);
+    padding: 20px 10px;
+    padding-left: 30px;
+}
+header h1{
+    font-weight: 200;
+    text-decoration: underline 2px;
+    color: rgb(9, 194, 178);
+    text-shadow: rgb(45, 146, 172)5px 5px  10px;
+    font-size: 3em;
+}
+header p{
+    
+    color: rgb(9, 194, 178);
+    text-shadow: rgb(45, 146, 172)5px 5px  10px;
+    font-size: 2em;
+} 
+.boton-header{
+    background-color: rgba(3, 63, 63, 0.514);
+    padding: 5px;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 200px;
+    box-shadow: rgb(45, 146, 172)5px 5px  10px;
+    
+    border-style: none  ;
+}
+header a:hover {
+    text-shadow: rgb(45, 146, 172)5px 5px  10px;
+    color: rgb(220, 20, 60);
+    text-decoration: underline;
+    border-radius: 10px;
+  }
+
+
+
+nav{
+    border: solid 2px rgba(179, 185, 245, 0.445);
+    text-align: center;
+    
+}
+nav li{
+    
+    list-style: none;
+    margin-right: 100px;
+    display: inline;
+    height: 40px;
+    width: fit-content;
+    line-height: 80px;
+    font-size: 24px;
+    text-align: center;
+    text-shadow: rgb(45, 146, 172)5px 5px  10px;
+}
+li a:hover{
+    
+    color: rgb(220, 20, 60);
+}
+
+.seccion1{
+    width: 100%;
+    padding: 30px 10px; 
+    margin-bottom: 20px; 
+    
+}
+.seccion1 h2{
+    padding: 20px 10px;
+    background-color: rgba(11, 105, 112, 0.301);
+    color: rgb(89, 231, 219);
+    font-weight: 200;
+    font-size: 2em;
+}
+.seccion1 p{
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 18px;
+    color: rgb(9, 194, 178);
+    font-weight: 200;
+    text-align: center;
+    
+}
+
+.seccion1 img{
+    margin: 30px;
+    box-shadow:  5px 5px 10px  rgba(0, 0, 0, 0.2);
+    float: left;
+    padding-left: 10px;
+    border-radius: 50%;
+    padding-top: 10px;
+   
+   
+}
+.seccion2{
+    width: 100%;
+    padding: 30px 10px; 
+    margin-bottom: 20px; 
+}
+.seccion2 h2{
+    padding: 20px 10px;
+    background-color: rgba(11, 105, 112, 0.301);
+    color: rgb(89, 231, 219);
+    font-weight: 200;
+    text-align: center;
+    font-size: 2em;
+    
+    
+}
+.tarjeta p, h3, h2{
+    color: rgb(89, 231, 219);
+    font-weight: 200;
+    margin-top: 20px;
+}
+.tarjeta{
+    float: left;
+    margin: 5px;
+    padding: 10px;
+    width: 24%; 
+    height: 500px;
+    text-align: center;
+    background-color: rgba(1, 80, 73, 0.493);
+    box-sizing: border-box;
+}
+.tarjeta>img{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(221, 233, 232, 0.89);
+    margin-top: 10px;
+    border-radius: 50%;
+    
+}
+.contenedor-tarjetas{
+    
+   width: 100%;
+  
+    display: inline-block;
+    margin: auto;
+    padding: 10px;
+    box-sizing: content-box;
+    
+}
+.volver{
+    background-color: rgba(3, 71, 66, 0.596);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    border-style: none;
+    box-shadow: 5px 5px 5px rgb(20, 165, 165);
+    color:  rgb(20, 165, 165);
+    float: right;
+    }
+.volver a:hover{
+    box-shadow:  rgb(97, 201, 228)5px 5px  10px;
+    text-decoration: underline;
+    color: rgb(220, 20, 60);
+    
+    
+}
+.contenedor-cursos{
+   margin: auto;
+    
+}
+.cursos{
+    border: solid 2px rgba(179, 185, 245, 0.445);
+    height: max-content;
+   margin-top: 10px;
+    width: 48%;
+    text-align: center;
+    color: rgb(97, 201, 228);
+    box-sizing: content-box;
+    float: left;
+    margin-left: 5px;
+    padding: 10px;
+    box-shadow:  rgba(97, 202, 228, 0.555)5px 5px  20px;
+}
+.cursos h2{
+    background-color: rgba(3, 71, 66, 0.596);
+    color: rgb(89, 231, 219);
+    font-weight: 200;
+    margin-top: 20px;
+}
+
+.cursos li{
+    margin: 30px;
+    font-size: 1.5em;    
+     
+     
+    list-style: lower-roman;
+     color: rgb(17, 228, 210);
+     text-align: center;
+ }
+.publicaciones{
+    
+    width: 48%;
+    float: left;
+    box-sizing: content-box;
+    padding: 10px;
+}
+.publicacion1, .publicacion2{
+    border: solid 2px rgba(179, 185, 245, 0.445);
+    height: max-content;
+    margin-bottom: 10px;
+}
+.publicacion1 img, .publicacion2 img{
+    padding: 5px;
+    float: left;
+    width: 180px;
+    height: 180px;
+}
+.publicacion1 h2, .publicacion2 h2{
+    background-color: rgba(3, 71, 66, 0.596);
+    color: rgb(131, 224, 217);
+    font-weight: 200;
+    margin-top: 20px;
+    float: left;
+    width: 400px;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: underline;
+}
+.publicacion1 p, .publicacion2 p{
+    color: rgb(89, 231, 219);
+    font-weight: 200;
+    text-align: justify;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    text-indent: 50px;
+}
+.clearfix{
+    clear: both;
+}
+.caja{
+   
+    margin: 50px auto;
+    height: max-content;
+    width: max-content;
+   text-align: center;
+ }
+/*
+width: max-content;
+height: 500px;
+border: solid 2px blue;
+margin: auto;
+text-align: center;*/
+
+.formulario{
+    border: solid red;
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    height: 600px;
+    color: rgb(45, 146, 172);
+    float: left;
+    box-sizing: content-box;
+    margin: 20px;
+    
+}
+.formulario h3{
+    background-color: rgba(3, 71, 66, 0.596);
+    
+}
+input{
+    margin: 10px;
+}
+.boton-form{
+    background-color: rgba(3, 71, 66, 0.596);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    border-style: none;
+    
+    color:  rgb(20, 165, 165);
+}
+.boton-form:hover{
+    box-shadow:  rgb(97, 201, 228)5px 5px  10px;
+    text-decoration: underline;
+    color: rgb(220, 20, 60);
+    cursor: pointer;
+    
+
+    }
+aside{
+    border: solid red;
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+   box-sizing: content-box;
+    color: rgb(45, 146, 172);
+    float: left;
+    height: 600px;
+    margin: 20px;
+   
+}
+aside h2{
+    background-color: rgba(3, 63, 63, 0.425);
+    margin-bottom: 20px;
+}
+textarea{
+    height: 350px;
+    width: 300px;
+    margin-top: 20px;
+    background-image: url(imagenescv/hojasrosas.jpg);
+    background-size: cover;
+    font-size: 2em;
+    color: rgb(1, 80, 73);
+    font-weight: bolder;
+   
+}
+footer{
+    
+    color: rgba(255, 255, 255, 0.493);
+    text-align: center;
+    padding: 5px;
+    height: 18px;
+    font-size: 16px;
+  
+   
+}
